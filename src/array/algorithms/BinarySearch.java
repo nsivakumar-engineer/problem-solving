@@ -2,7 +2,7 @@ package array.algorithms;
 
 public class BinarySearch {
 
-    private static int binarySearch(int[] arr, int target){
+    public static int binarySearch(int[] arr, int target){
         //return binarySearchUtilRecursive(arr, target, 0, arr.length-1 );
         return binarySearchIterative(arr, target);
     }
